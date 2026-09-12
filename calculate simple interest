@@ -1,0 +1,12 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float p = sc.nextFloat();
+        float r = sc.nextFloat();
+        float t = sc.nextFloat();
+
+        System.out.println((p * r * t) / 100);
+    }
+}
