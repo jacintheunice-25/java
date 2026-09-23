@@ -1,0 +1,14 @@
+class Addition {
+    int a, b;
+
+    void add() {
+        System.out.println("Sum = " + (a + b));
+    }
+
+    public static void main(String[] args) {
+        Addition obj = new Addition();
+        obj.a = 20;
+        obj.b = 30;
+        obj.add();
+    }
+}
